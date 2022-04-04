@@ -1,4 +1,4 @@
-# Site Vulnerabilities Finder (For educational purposes only)
+# Site Vulnerabilities Finder With User Agents (For educational purposes only)
 
 ![banner](https://user-images.githubusercontent.com/82678562/161605962-88cc70bf-0998-42ca-b97c-4abd90726392.png)
 > ###### Banner Made By Me
