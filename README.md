@@ -1,6 +1,7 @@
-# Site Vulnerabilities Finder With User Agents (For educational purposes only)
+# Site Vulnerabilities Finder With Random User Agents (For educational purposes only)
 
-![banner](https://user-images.githubusercontent.com/82678562/161605962-88cc70bf-0998-42ca-b97c-4abd90726392.png)
+![banner](https://user-images.githubusercontent.com/82678562/161608792-96eace50-c8a9-4b48-a828-481415000861.png)
+
 > ###### Banner Made By Me
 
 This Python script scans site for vulnerabilities, such as admin panels, logs
