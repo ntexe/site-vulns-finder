@@ -48,7 +48,8 @@ for line in links:
 				fl.close()
 
 		linkNum += 1
-		open("scanHistory", "w").write(f"{site} {linkNum}")
+		if linkNum % 20 == 0:
+			open("scanHistory", "w").write(f"{site} {linkNum}")
 	except Exception as e:
 		print(e)
 
