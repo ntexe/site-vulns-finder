@@ -6,6 +6,13 @@
 
 This Python script scans site for vulnerabilities, such as admin panels, logs
 
+## Features
+
+- Random user agents
+- Saving scan progress
+- Scanning Content for "404"
+- Big wordlist (150k)
+
 ## Usage
 ### Linux:
 ```
@@ -22,4 +29,4 @@ python SiteVulnsFinder.py
 
 ## Screenshots
 
-![scr1](https://user-images.githubusercontent.com/82678562/161606856-7d8ca0c1-779d-4e16-a8a5-3cb7885b4dc3.png)
+![scr2](https://user-images.githubusercontent.com/82678562/162267168-47fc38cf-674c-4287-8eef-97c80302dba9.png)
