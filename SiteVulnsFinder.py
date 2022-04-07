@@ -14,11 +14,12 @@ links = f.read().splitlines()
 
 history = {i.split()[0]:i.split()[1] for i in open("scanHistory", "r+").read().splitlines()} # openning with w+ for creating a file, if it doesn't exits
 
+linkNum = 0
+
 if site in history:
 	if input(f"Continue previous scan of {site}? (y/n): ").replace(" ", "").lower() == "y":
 		del links[:int(history[site])]
-
-linkNum = 0
+		linkNum = int(history[site])
 
 print("Available links: ")
 for line in links:
@@ -47,9 +48,7 @@ for line in links:
 				fl.close()
 
 		linkNum += 1
-
-		if linkNum % 16 == 0:
-			open("scanHistory", "w").write(f"{site} {linkNum}")
+		open("scanHistory", "w").write(f"{site} {linkNum}")
 	except Exception as e:
 		print(e)
 
